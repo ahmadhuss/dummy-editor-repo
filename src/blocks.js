@@ -1,11 +1,11 @@
 import React from 'react';
-import { boolean, text } from './editor';
+import { useProp } from './editor';
 import { Heading } from './components/Heading';
 
 
 // WithHeading Block
 export const WithHeading = () => {
-    const boolVal = boolean('hasFruit', true);
-    const textVal = text('fruitName', 'Apple');
-    return (<Heading hasFruit={boolVal} fruitName={textVal}/>);
+    const booleanVal = useProp('boolean','hasFruit', true);
+    const textVal = useProp('text','fruitName', 'Apple');
+    return (<Heading hasFruit={booleanVal} fruitName={textVal}/>);
 };
