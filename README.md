@@ -1,6 +1,6 @@
 ## Bootstrap the app
 
-Install all dependencies that projects are using
+Install all dependencies that project is using
 
 ***Npm:***
 
