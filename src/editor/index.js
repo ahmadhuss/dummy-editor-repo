@@ -43,7 +43,7 @@ export const useProp = (type, name, defaultValue) => {
     //  When an action is dispatched, useSelector() will do a reference comparison of the
     //  previous selector result value and the current result value
     const value = useSelector(state => {
-        return state[name] ? state[name].value : defaultValue;
+        return state[name] ? state[name].value : '';
         });
     return value;
 };
