@@ -50,8 +50,6 @@ export const PropEditor = () => {
     // Redux core types, so no declarations are needed.
     const dispatch = useDispatch();
 
-
-
     const handleChange = (dataFromChild) => {
         dispatch(setPropValue(dataFromChild));
 

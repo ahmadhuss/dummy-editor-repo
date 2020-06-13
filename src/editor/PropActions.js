@@ -1,6 +1,5 @@
 import * as actionTypes from './actionTypes';
 
-
 // Prop related action creators
 /**
  * @param prop {Object} - The prop object
